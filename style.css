@@ -1,0 +1,170 @@
+* {
+   margin: 0px;
+   padding:0px;
+}
+
+/* NavBar */
+
+nav {
+    height: 100px;
+    width: 1400px;
+    background-color: aqua;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+
+}
+
+.navSide {
+    width:200px;
+    height:100px;
+    background-color: white;
+}
+
+.navMid {
+    height: 100px;
+    width: 1000px;
+    background-color: grey;
+    display:flex;
+    justify-content: space-around;
+}
+
+.doj {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 100px;
+
+}
+
+h1  {
+    color: black;
+    font-size: 55px;
+    font-family: cursive;
+    margin-bottom: 5px;
+}
+
+.search {
+    width: 300px;
+    height: 100px;
+} 
+.search > input {
+    margin-top: 30px;
+    height: 30px;
+    width:300px;
+    color: grey;
+    border: solid black 3px;
+}
+.butTop {
+    width:200px;
+}
+.butTop > button {
+    height: 40px;
+    background-color: rgb(43,120,228);
+    width: 100px;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 100px;
+    margin-top: 25px;
+    color:white;
+}
+
+/* Main content time! */
+
+.bigBox {
+    height: 1400px;
+    width:1400px;
+}
+
+.row {
+    height: 300px;
+    width: 1400px;
+    display: flex;
+    margin-bottom:25px;
+}
+
+.coloSide {
+    height:300px;
+    width:210px;
+    background-color: white;
+}
+ 
+/* Content top left and left bottom */
+
+.coloNinja {
+    width:580px;
+    height: 300px;
+
+    display: flex;
+    border: solid black 5px;
+}
+.ninLeft {
+    width:30%;
+    height: 400px;
+    text-align: center;
+}
+
+.noun {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.likes {
+
+    margin-top: 40px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255,217,102);
+    box-shadow: 5px 5px 5px black;
+    font-weight: bold;
+}
+
+.ninRight {
+    width:70%;
+    height: 400px; text-align: center;
+    padding-top: 100px;
+    font-size:27px;
+}
+
+#blue {
+    text-decoration: underline;
+    color:royalblue;
+}
+
+/* top right box */
+.coloRight {
+    height: 250px;
+    width: 375px;
+
+    margin-left:20px;
+    border: solid black 5px;
+    margin-right: 10px;
+}
+
+.top {
+    height: 125px;
+    width: 375px;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.bottom {
+    height: 125px;
+    width: 375px;
+}
+
+.add {
+   width: 300px;
+   height: 50px; 
+   margin-left: 25px;
+   background-color:rgb(147,196,125);
+}
+
+.coloRight2 {
+    height: 250px;
+    width: 375px;
+    margin-left:20px;
+    margin-right: 10px;
+}
+
+

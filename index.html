@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button</title>
+    <nav class="nav">
+        <div class="navSide"></div>
+        <div class="navMid">
+            <div class="doj">
+                <h1>Dojonary</h1>
+            </div>
+            <div class="search">
+                <input type="text" value="Search">
+            </div>
+            <div class="butTop">
+                <button onclick="loginf(this)">Login</button>
+            </div>
+        </div>
+        <div class="navSide"></div>
+
+
+    </nav>
+</head>
+
+<body>
+    <div class="bigBox">
+
+        <div class="row">
+            <div class="coloSide"></div>
+            <div class="coloNinja">
+                <div class="ninLeft">
+                    <h1>ninja</h1>
+                    <p class="noun"><em>noun</em></p>
+                    <p class="ninjas">Plural: <em>ninjas</em></p>
+                    <button class="likes">13 likes</button>
+                </div>
+                <div class="ninRight">
+                    <p> A practitioner skilled in the <span id="blue">Japanese</span> art of <span id="blue">ninjutsu</span></p>
+                </div>
+
+            </div>
+            <div class="coloRight">
+                <div class="top">
+                    <p>Dojonary is <br> defined by <span style="font-weight:bold;">YOU</span></p>
+                </div>
+                <div class="bottom">
+                    <button onclick="removeAdd(this)" class="add">Add Definition</button>
+                </div>
+            </div>
+            <div class="coloSide"></div>
+        </div>
+
+        <div class="row">
+            <div class="coloSide"></div>
+            <div class="coloNinja">
+                <div class="ninLeft">
+                    <h1>ninja</h1>
+                    <p class="noun">noun</p>
+                    <p class="ninjas">Plural: ninjas</p>
+                    <button onclick="alert('Ninja was liked')" class="likes">37 likes</button>
+                </div>
+                <div class="ninRight">
+                    <p>A <span id="blue">programmer</span> who breaks<br> down problems with <span id="blue">zen</span>-like<br> focus</p>
+                </div>
+
+            </div>
+            <div class="coloRight2"></div>
+            <div class="coloSide"></div>
+        </div>
+
+        <div class="row3"></div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
